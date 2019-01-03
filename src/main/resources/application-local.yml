@@ -1,0 +1,8 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:mysql://47.92.140.104:3306/ch?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 951753123
+    db-name: ch #用来搜集数据库的所有表
+    filters: wall,mergeStat
